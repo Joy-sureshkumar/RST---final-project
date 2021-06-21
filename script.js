@@ -20,14 +20,14 @@ document.getElementById('button').addEventListener('click', trapArea)
 document.getElementById('button').addEventListener('click', triArea)
 
 // the function takes the input and then caluculates the area via the equation
-function circArea() {
+function circArea () {
   diameter = document.getElementById('diameter').value
   diameter = parseInt(diameter)
   result = (((diameter / 2) ** 2) * PI)
   document.getElementById('area').innerHTML = result
 }
 
-function rectArea() {
+function rectArea () {
   length = document.getElementById('length').value
   length = parseInt(length)
   width = document.getElementById('width').value
@@ -36,24 +36,24 @@ function rectArea() {
   if (Number.isInteger(result)) {
     document.getElementById('rectarea').innerHTML = result
   } else {
-    //otherwise display error message
-    document.getElementById('rectarea').innerHTML = "Error, please input the correct numbers"
+    //  otherwise display error message
+    document.getElementById('rectarea').innerHTML = 'Error, please input the correct numbers'
   }
 }
 
-function squareArea() {
+function squareArea () {
   length = document.getElementById('length').value
   length = parseInt(length)
   result = (length * length)
   if (Number.isInteger(result)) {
     document.getElementById('area').innerHTML = result
   } else {
-    //otherwise display error message
+    //  otherwise display error message
     document.getElementById('area').innerHTML = "Error, please input the correct numbers"
   }
 }
 
-function trapArea() {
+function trapArea () {
   parralellength = document.getElementById('parralellength').value
   parralellength = parseInt(parralellength)
   base = document.getElementById('base').value
@@ -64,12 +64,12 @@ function trapArea() {
   if (Number.isInteger(result)) {
     document.getElementById('traparea').innerHTML = result
   } else {
-    //otherwise display error message
+    //  otherwise display error message
     document.getElementById('traparea').innerHTML = "Error, please input the correct numbers"
   }
 }
 
-function triArea() {
+function triArea () {
   height = document.getElementById('height').value
   height = parseInt(height)
   base = document.getElementById('base').value
@@ -78,7 +78,7 @@ function triArea() {
   if (Number.isInteger(result)) {
     document.getElementById('triarea').innerHTML = result
   } else {
-    //otherwise display error message
+    //  otherwise display error message
     document.getElementById('triarea').innerHTML = "Error, please input the correct numbers"
   }
 }
