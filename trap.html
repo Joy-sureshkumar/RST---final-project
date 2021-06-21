@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="topnav">
+ <a class="active" href="/index.html">Home</a>
+  <a href="/circ.html">Circle</a>
+  <a href= "/rect.html">Rectangle</a>
+   <a href= "/square.html">Square</a>
+    <a href= "/trap.html">Trapezoid</a>
+     <a href= "/tri.html">Triangle</a>
+</div>
+<h3> Area of Trapezoid </h3>
+<br>
+<img src= "./Images/trap.jpg" alt= "picture of the area of a trapezoid formula" width="40%">
+<br>
+<p> Please input the correct numbers to get your desired result </p>
+ <input type="numbers" onfocus="this.value=''" value="Enter height" id="height" name="height">
+  <input type="numbers" onfocus="this.value=''" value="Enter base" id="base" name="base">
+   <input type="numbers" onfocus="this.value=''" value="parralel Length" id="parralelLength" name="parralelLength">
+    <button id="button">Calculate</button>
+  <p> Area = </p>
+   <p id="trapArea"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
