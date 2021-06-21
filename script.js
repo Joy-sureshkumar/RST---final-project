@@ -5,7 +5,7 @@
 // area of a rectangle = length * width 
 var x = 0 
 let length = 0;
-let parralelLength = 0;
+let parralellength = 0;
 let width = 0;
 let height = 0;
 let base = 0;
@@ -37,7 +37,7 @@ function rectArea() {
   width = document.getElementById('width').value;
   width = parseInt(width);
   result = (length * width);
-  document.getElementById('rectArea').innerHTML = result;
+  document.getElementById('rectarea').innerHTML = result;
 }
 
 function squareArea() {
@@ -48,14 +48,14 @@ function squareArea() {
 }
 
 function trapArea() {
-  parralelLength = document.getElementById('parralelLength').value;
-  parralelLength = parseInt(parralelLength);
+  parralellength = document.getElementById('parralellength').value;
+  parralellength = parseInt(parralellength);
   base = document.getElementById('base').value;
   base = parseInt(base);
   height = document.getElementById('height').value;
   height = parseInt(height);
-  result = ((parralelLength + base) / 2) * height;
-  document.getElementById('trapArea').innerHTML = result;
+  result = ((parralellength + base) / 2) * height;
+  document.getElementById('traparea').innerHTML = result;
 }
 
 function triArea() {
@@ -64,5 +64,5 @@ function triArea() {
   base = document.getElementById('base').value;
   base = parseInt(base);
   result = ((base * height) / 2);
-  document.getElementById('triArea').innerHTML = result;
+  document.getElementById('triarea').innerHTML = result;
 }
