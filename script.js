@@ -3,6 +3,7 @@
 // area of a square = length*length
 // area of a trapeziod = (a + b)/2 *height
 // area of a rectangle = length * width
+let x = 0
 let length = 0
 let parralellength = 0
 let width = 0
@@ -64,4 +65,9 @@ function triArea () {
   base = parseInt(base)
   result = ((base * height) / 2)
   document.getElementById('triarea').innerHTML = result
+}
+
+// if x equals to 0 it will show up in the console, but it does. 
+if (x == 0) {
+  console.log("if!");
 }
