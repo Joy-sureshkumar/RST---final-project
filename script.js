@@ -2,8 +2,7 @@
 // area of trianlge = (base * height/2)
 // area of a square = length*length
 // area of a trapeziod = (a + b)/2 *height
-// area of a rectangle = length * width 
-var x = 0 
+// area of a rectangle = length * width
 let length = 0;
 let parralellength = 0;
 let width = 0;
