@@ -36,7 +36,7 @@ function rectArea () {
   width = document.getElementById('width').value
   width = parseInt(width)
   result = (length * width)
-  document.getElementById('rectarea').innerHTML = result;
+  document.getElementById('rectarea').innerHTML = result
 }
 
 function squareArea () {
@@ -47,7 +47,7 @@ function squareArea () {
 }
 
 function trapArea () {
-  parralellength = document.getElementById('parralellength').value;
+  parralellength = document.getElementById('parralellength').value
   parralellength = parseInt(parralellength)
   base = document.getElementById('base').value
   base = parseInt(base)
