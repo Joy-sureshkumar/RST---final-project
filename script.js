@@ -49,7 +49,7 @@ function squareArea () {
     document.getElementById('area').innerHTML = result
   } else {
     //  otherwise display error message
-    document.getElementById('area').innerHTML = "Error, please input the correct numbers"
+    document.getElementById('area').innerHTML = 'Error, please input the correct numbers'
   }
 }
 
@@ -65,7 +65,7 @@ function trapArea () {
     document.getElementById('traparea').innerHTML = result
   } else {
     //  otherwise display error message
-    document.getElementById('traparea').innerHTML = "Error, please input the correct numbers"
+    document.getElementById('traparea').innerHTML = 'Error, please input the correct numbers'
   }
 }
 
@@ -79,6 +79,6 @@ function triArea () {
     document.getElementById('triarea').innerHTML = result
   } else {
     //  otherwise display error message
-    document.getElementById('triarea').innerHTML = "Error, please input the correct numbers"
+    document.getElementById('triarea').innerHTML = 'Error, please input the correct numbers'
   }
 }
