@@ -30,7 +30,7 @@ function circArea () {
   document.getElementById('area').innerHTML = result
 }
 
-function rectArea() {
+function rectArea () {
   length = document.getElementById('length').value
   length = parseInt(length)
   width = document.getElementById('width').value
@@ -39,14 +39,14 @@ function rectArea() {
   document.getElementById('rectarea').innerHTML = result;
 }
 
-function squareArea() {
+function squareArea () {
   length = document.getElementById('length').value
   length = parseInt(length)
   result = (length * length)
   document.getElementById('area').innerHTML = result
 }
 
-function trapArea() {
+function trapArea () {
   parralellength = document.getElementById('parralellength').value;
   parralellength = parseInt(parralellength)
   base = document.getElementById('base').value
@@ -57,7 +57,7 @@ function trapArea() {
   document.getElementById('traparea').innerHTML = result
 }
 
-function triArea() {
+function triArea () {
   height = document.getElementById('height').value
   height = parseInt(height)
   base = document.getElementById('base').value
